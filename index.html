@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forza Horizon 5 - O Melhor Jogo de Corrida</title>
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>FORZA HORIZON 5</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#cars" class="nav-link">Carros</a></li>
+                <li><a href="#features" class="nav-link">Recursos</a></li>
+                <li><a href="#gallery" class="nav-link">Galeria</a></li>
+                <li><a href="#download" class="nav-link">Baixar</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-main">FORZA</span>
+                    <span class="title-sub">HORIZON 5</span>
+                </h1>
+                <p class="hero-description">
+                    Explore o México vibrante em mundo aberto com centenas de carros incríveis. 
+                    A experiência de corrida mais épica já criada.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Jogar Agora</button>
+                    <button class="btn btn-secondary">Ver Trailer</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Forza Horizon 5 Hero Car">
+            </div>
+        </section>
+
+        <section id="cars" class="cars-section">
+            <div class="container">
+                <h2 class="section-title">Carros Lendários</h2>
+                <p class="section-subtitle">Descubra uma coleção épica de mais de 500 carros</p>
+                
+                <div class="cars-grid" id="carsGrid">
+                    <!-- Cars will be loaded by JavaScript -->
+                </div>
+                
+                <div class="cars-filter">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="supercar">Supercars</button>
+                    <button class="filter-btn" data-filter="classic">Clássicos</button>
+                    <button class="filter-btn" data-filter="offroad">Off-Road</button>
+                    <button class="filter-btn" data-filter="hypercar">Hypercars</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section">
+            <div class="container">
+                <h2 class="section-title">Recursos Incríveis</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🌎</div>
+                        <h3>Mundo Aberto Épico</h3>
+                        <p>Explore o México vibrante com paisagens diversas, desde praias até vulcões.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🏎️</div>
+                        <h3>500+ Carros</h3>
+                        <p>A maior coleção de carros já vista em um jogo Forza Horizon.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">👥</div>
+                        <h3>Multiplayer</h3>
+                        <p>Corra com amigos em aventuras cooperativas e competições online.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Personalização</h3>
+                        <p>Customize seus carros com pinturas únicas e modificações.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🏆</div>
+                        <h3>Eventos Épicos</h3>
+                        <p>Participe de corridas, acrobacias e desafios únicos.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📸</div>
+                        <h3>Modo Foto</h3>
+                        <p>Capture momentos incríveis com ferramentas profissionais de fotografia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery-section">
+            <div class="container">
+                <h2 class="section-title">Galeria de Screenshots</h2>
+                <div class="gallery-grid" id="galleryGrid">
+                    <!-- Gallery images will be loaded by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="download-section">
+            <div class="container">
+                <div class="download-content">
+                    <h2>Pronto para a Aventura?</h2>
+                    <p>Baixe Forza Horizon 5 agora e comece sua jornada pelo México!</p>
+                    <div class="download-buttons">
+                        <button class="btn btn-primary btn-large">
+                            <span>Baixar para PC</span>
+                            <small>Windows 10/11</small>
+                        </button>
+                        <button class="btn btn-secondary btn-large">
+                            <span>Xbox Game Pass</span>
+                            <small>Incluso na assinatura</small>
+                        </button>
+                    </div>
+                    <div class="system-requirements">
+                        <h3>Requisitos Mínimos</h3>
+                        <ul>
+                            <li>Windows 10 versão 15063.0 ou superior</li>
+                            <li>Intel i5-4460 ou AMD FX-8350</li>
+                            <li>8 GB de RAM</li>
+                            <li>NVIDIA GTX 970 ou AMD RX 470</li>
+                            <li>110 GB de espaço disponível</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Forza Horizon 5</h3>
+                    <p>A experiência de corrida definitiva no México vibrante.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#cars">Carros</a></li>
+                        <li><a href="#features">Recursos</a></li>
+                        <li><a href="#gallery">Galeria</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Suporte</h4>
+                    <ul>
+                        <li><a href="#">Central de Ajuda</a></li>
+                        <li><a href="#">Fóruns</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Bug Reports</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">YouTube</a>
+                        <a href="#" class="social-link">Discord</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Microsoft Corporation. Forza Horizon 5. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="src/js/main.js"></script>
+</body>
+</html>
